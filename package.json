@@ -20,8 +20,13 @@
     "start": "node dist/index.js"
   },
   "devDependencies": {
+    "@types/dns-packet": "^5.6.5",
     "@types/node": "^22.14.1",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "dns-packet": "^5.6.1"
   }
 }
